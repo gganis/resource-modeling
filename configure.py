@@ -27,7 +27,7 @@ def updateDict(target,changes):
 def configure(modelName):
     modelNames = ['BaseModel.json', 'RealisticModel.json']
 
-    if isinstance(modelName, basestring):
+    if isinstance(modelName, str):
         modelNames.append(modelName)
     elif isinstance(modelName, list):
         modelNames.extend(modelName)
